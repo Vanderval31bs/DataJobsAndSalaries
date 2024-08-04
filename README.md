@@ -16,8 +16,8 @@ The analysis was conducted using Python, with libraries such as Pandas for data 
 
 The project consists of the following notebooks:
 
-- **[Exploratory Data Analysis (EDA) Notebook](link_to_eda_notebook)**: This notebook performs data exploration, visualization, and preliminary analysis to understand the dataset and identify trends.
-- **[Model Training Notebook](link_to_model_training_notebook)**: This notebook focuses on training and evaluating different machine learning models to predict job salaries. It includes model performance comparisons and results.
+- **[Exploratory Data Analysis (EDA) Notebook](https://github.com/Vanderval31bs/DataJobsAndSalaries/blob/main/EDA.ipynb)**: This notebook performs data exploration, visualization, and preliminary analysis to understand the dataset and identify trends.
+- **[Model Training Notebook](https://github.com/Vanderval31bs/DataJobsAndSalaries/blob/main/Model_Training)**: This notebook focuses on training and evaluating different machine learning models to predict job salaries. It includes model performance comparisons and results.
 
 ## Conclusions
 
@@ -31,7 +31,16 @@ The project consists of the following notebooks:
 
 ## Model Training Results
 
-No model outperformed the dummy model that used the simple mean of the observations. This suggests that either the models did not effectively capture the underlying patterns in the data, or the data itself may not contain significant patterns that more complex models could exploit.
+The final model chosen was a **Random Forest Regressor** with the following parameters:
+- `n_estimators=100`
+- `max_depth=10`
+
+On the test data, the model achieved:
+- **R²-score**: 0.299, indicating it explained approximately 30% of the variance in the target variable.
+- **Mean Absolute Error (MAE)**: 40650.49.
+- **Root Mean Squared Error (RMSE)**: 52877.33.
+
+These results suggest that while the model captures some underlying patterns, there is still considerable room for improvement in its performance.
 
 ## Contact
 
