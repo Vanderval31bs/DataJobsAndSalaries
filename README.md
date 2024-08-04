@@ -12,6 +12,13 @@ The dataset used for this analysis is sourced from Kaggle and can be found at [J
 
 The analysis was conducted using Python, with libraries such as Pandas for data manipulation, NumPy for numerical computations, Matplotlib for data visualization, and Seaborn for statistical graphics.
 
+## Project Structure
+
+The project consists of the following notebooks:
+
+- **[Exploratory Data Analysis (EDA) Notebook](link_to_eda_notebook)**: This notebook performs data exploration, visualization, and preliminary analysis to understand the dataset and identify trends.
+- **[Model Training Notebook](link_to_model_training_notebook)**: This notebook focuses on training and evaluating different machine learning models to predict job salaries. It includes model performance comparisons and results.
+
 ## Conclusions
 
 - **Salary Influencers**: Job salary is related to experience level, job title/category, employment type, work setting, company size, location, and employee residence.
